@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Poppins:400,500,600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <!--NAVIGATION BAR-->
+    <nav>
+      <p class="welcome">This is like fast food, but for financial services.</p>
+      <img src="logo.png" alt="Logo" class="logo" />
+      <div class="connect">
+        <button class="connect_btn">Connect to your account</button>
+
+        <form class="login hidden">
+          <input
+            type="text"
+            placeholder="USER"
+            class="login__input login__input--user"
+          />
+          <!-- In practice, use type="password" -->
+          <input
+            type="text"
+            placeholder="PIN"
+            maxlength="4"
+            class="login__input login__input--pin"
+          />
+          <button class="login__btn">&rarr;</button>
+        </form>
+      </div>
+    </nav>
+
+    <main></main>
+    <script src="script.js"></script>
+  </body>
+</html>
