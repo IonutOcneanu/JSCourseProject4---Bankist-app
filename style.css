@@ -33,7 +33,7 @@ nav {
 
 .logo {
   width: 10rem;
-  height: auto ;
+  height: auto;
 }
 
 .buttons {
@@ -137,11 +137,11 @@ nav {
   gap: 2rem;
 
   /* NOTE This creates the fade in/out anumation */
-  transition: all 1s; */
+  transition: all 1s;
 }
 
 .main__win--hide {
-  /* display: none; */
+  /* display: none;  TODO:*/
 }
 
 .balance {
@@ -331,7 +331,6 @@ h2 {
   background-color: #ffffffcc;
 }
 
-
 /*DROPDOWN -- CRYPTO EXCHANGE*/
 .drop__btn {
   padding: 0.5rem;
@@ -340,15 +339,19 @@ h2 {
   border: none;
   border-radius: 1rem;
 
-  background-image: linear-gradient(to top, rgba(255, 0, 0, 0), rgba(255, 255, 255, 0.8))
+  background-image: linear-gradient(
+    to top,
+    rgba(255, 0, 0, 0),
+    rgba(255, 255, 255, 0.8)
+  );
 }
 
-.form__input--amount{
+.form__input--amount {
   color: rgba(117, 117, 117, 0.329);
-
 }
 
-.from__drop, .to__drop {
+.from__drop,
+.to__drop {
   position: relative;
   display: inline-block;
 }
@@ -359,7 +362,7 @@ h2 {
   background-color: #ffff;
   width: 120px;
   min-width: 140px;
-  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
   z-index: 1;
 }
 
@@ -372,14 +375,22 @@ h2 {
 }
 
 /* Change color of dropdown links on hover */
-.drop__content a:hover {background-color: rgb(255, 255, 255);}
+.drop__content a:hover {
+  background-color: rgb(255, 255, 255);
+}
 
 /* Show the dropdown menu on hover */
-.from__drop:hover .drop__content, .to__drop:hover .drop__content {display: block;}
+.from__drop:hover .drop__content,
+.to__drop:hover .drop__content {
+  display: block;
+}
 
 /* Change the background color of the dropdown button when the dropdown content is shown */
-.from__drop:hover .drop__btn, .to__drop:hover .drop__btn {background-color: #ffff;
-  border-radius: 1rem 1rem 0 0;}
+.from__drop:hover .drop__btn,
+.to__drop:hover .drop__btn {
+  background-color: #ffff;
+  border-radius: 1rem 1rem 0 0;
+}
 
 .logout-timer {
   padding: 0 0.3rem;
